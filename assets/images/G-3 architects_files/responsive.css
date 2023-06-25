@@ -1,0 +1,118 @@
+/*============================
+| Cell-phone responsive styles
+==============================*/
+@media only screen and (max-width: 576px) {
+  /* Header features responsive style */
+  header {
+    padding: 0rem;
+    margin-bottom: 1.5rem;
+  }
+  .nav {
+    flex-direction: column;
+    display: block;
+  }
+  .brand-title {
+    margin-left: 20px;
+    padding: 1rem 0rem;
+  }
+  .nav-links > a {
+    border-bottom: 1px solid var(--light-border);
+    margin-bottom: 8px;
+  }
+  .nav-links a:nth-child(4) {
+    border-bottom: 0px solid var(--light-border);
+  }
+  .brand-title {
+    font-size: 2rem;
+  }
+  .nav-links {
+    display: grid;
+    align-content: flex-start;
+  }
+
+  /* Quick list features responsive style */
+  .quick-list-features {
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .quick-list-images {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .quick-list-wrapper {
+    flex-direction: column;
+  }
+
+  /* Loveable features responsive style */
+  .loveable-features {
+    margin: 2rem 0rem;
+    padding: 0.5rem;
+  }
+  .feature-wrapper {
+    flex-direction: column;
+  }
+  .hanging-btn {
+    top: 87%;
+    right: 63%;
+  }
+
+  /* Some facts responsive style */
+  .some-facts {
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .facts-description {
+    width: 100%;
+  }
+  .facts-image-wrapper {
+    flex-direction: column;
+    display: block;
+    padding: 0;
+  }
+  .wrapper {
+    margin: 1rem 0rem;
+  }
+
+  /* Our sponsors responsive style */
+  .our-sponsors {
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .sponsors-wrapper {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /* Testimonial responsive style */
+  .added-bonus-testimonial-feature {
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .testimonial-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* Footer responsive style */
+  footer {
+    margin: 1rem 0rem;
+    text-align: center;
+  }
+
+  /* All titles style */
+  .brand-title,
+  .section-title,
+  .feature-title,
+  .facts-title,
+  .sponsors-title,
+  .testimonial-title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+}
+/*============================
+| Tablet responsive styles
+==============================*/
+.hide {
+  display: none;
+}
